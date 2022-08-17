@@ -11,6 +11,8 @@
 		BDC2B4C728AD0696005EA2E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2B4C628AD0696005EA2E1 /* ContentView.swift */; };
 		BDC2B4C928AD0699005EA2E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC2B4C828AD0699005EA2E1 /* Assets.xcassets */; };
 		BDC2B4CC28AD0699005EA2E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC2B4CB28AD0699005EA2E1 /* Preview Assets.xcassets */; };
+		BDC2B4D328AD1D6D005EA2E1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2B4D228AD1D6D005EA2E1 /* MapView.swift */; };
+		BDC2B4D528AD1E3B005EA2E1 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2B4D428AD1E3B005EA2E1 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BDC2B4C628AD0696005EA2E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDC2B4C828AD0699005EA2E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDC2B4CB28AD0699005EA2E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDC2B4D228AD1D6D005EA2E1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BDC2B4D428AD1E3B005EA2E1 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				BDC2B4C428AD0696005EA2E1 /* tutorialApp.swift */,
 				BDC2B4C628AD0696005EA2E1 /* ContentView.swift */,
+				BDC2B4D428AD1E3B005EA2E1 /* CircleImage.swift */,
 				BDC2B4C828AD0699005EA2E1 /* Assets.xcassets */,
 				BDC2B4CA28AD0699005EA2E1 /* Preview Content */,
+				BDC2B4D228AD1D6D005EA2E1 /* MapView.swift */,
 			);
 			path = tutorial;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDC2B4C728AD0696005EA2E1 /* ContentView.swift in Sources */,
+				BDC2B4D528AD1E3B005EA2E1 /* CircleImage.swift in Sources */,
+				BDC2B4D328AD1D6D005EA2E1 /* MapView.swift in Sources */,
 				BDC2B4C528AD0696005EA2E1 /* tutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
