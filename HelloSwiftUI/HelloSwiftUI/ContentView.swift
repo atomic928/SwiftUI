@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var inputText = ""
     var body: some View {
         VStack {
-            Image(systemName: "trash")
-            Image("image1")
+            TextField("ここに文字を入力", text: $inputText)
         }
     }
 }
