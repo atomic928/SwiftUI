@@ -12,7 +12,14 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-           Toggle("Toggle", isOn: $isOn)
+           Text("HelloWorld")
+                .padding()
+                .background(.red)
+                .background(.green)
+            Text("HelloWorld")
+                .background(.red)
+                .padding()
+            
         }
     }
 }
