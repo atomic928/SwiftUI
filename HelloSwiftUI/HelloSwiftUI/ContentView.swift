@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var str = "Hello, SwiftUI!"
     var body: some View {
         VStack {
-            Text("Hello, SwiftUI!")
+            Text(str)
                 .padding()
+                .foregroundColor(.red)
             Button("ボタン") {
+                str = "ハローSwiftUI!"
                 print("ボタンが押されたよ")
             }
         }
