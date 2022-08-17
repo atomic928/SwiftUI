@@ -9,8 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(alignment: .leading) {
+            Text("Tutle Fock")
+                .font(.title)
+            HStack {
+                Text("Joshua Tree National Park.")
+                    .font(.subheadline)
+                Spacer()
+                Text("California")
+                    .font(.subheadline)
+            }
+            Image("turtlerock")
+                .clipShape(Circle())
+                .overlay {
+                    Circle().stroke(.white, lineWidth: 4)
+                }
+                .shadow(radius: 7)
+        }
+        .padding()
     }
 }
 
