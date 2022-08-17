@@ -10,12 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Circle()
-                .foregroundColor(.red)
-            Circle()
-                .foregroundColor(.yellow)
-            Circle()
-                .foregroundColor(.blue)
+            List {
+                Text("apple")
+                Text("orange")
+                Text("grape")
+            }
         }
     }
 }
