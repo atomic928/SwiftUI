@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var inputText = ""
+    @State var isOn = true
+    
     var body: some View {
         VStack {
-            TextField("ここに文字を入力", text: $inputText)
+           Toggle("Toggle", isOn: $isOn)
         }
     }
 }
